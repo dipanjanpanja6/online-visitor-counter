@@ -13,7 +13,7 @@ Real-time online visitors counter using firebase realtime database
 1. create firebase project https://firebase.google.com/docs/web/setup
 2. goto firebase realtime database and create a new one.
 3. navigate to rules tab and add rules like this.
-```
+```javascript
 {
   "rules": {
     ".read": false,
@@ -28,7 +28,7 @@ Real-time online visitors counter using firebase realtime database
 ```
 3. now goto html/index.html
 4. replace firebaseConfig with your own
-```
+```javascript
 var firebaseConfig = {
   apiKey: "API_KEY",
   authDomain: "PROJECT_ID.firebaseapp.com",
@@ -47,7 +47,7 @@ var firebaseConfig = {
 1. run ```npm i```
 2. open config.js file
 3. replace firebaseConfig with your own
-```
+```javascript
 var firebaseConfig = {
   apiKey: "API_KEY",
   authDomain: "PROJECT_ID.firebaseapp.com",
